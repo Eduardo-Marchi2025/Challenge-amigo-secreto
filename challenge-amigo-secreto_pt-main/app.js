@@ -1,4 +1,5 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let amigos = [];
 let sorteioRealizado = false;
 let toRemove = '';
@@ -157,4 +158,3 @@ function limparElemento(elemento) {
 function alterarValorElemento(elemento, valor) {
     document.getElementById(elemento).innerHTML = valor;
 }
-
