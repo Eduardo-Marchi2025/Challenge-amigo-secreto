@@ -18,6 +18,7 @@
         </header> 
         <section class="input-section">
             <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <p class="section-p">Para adicionar mais de um amigo, separe os nomes por vírgulas. Ex:(Eryc, Dely)</p>
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
                 <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
@@ -30,11 +31,11 @@
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
                     
                     Sortear amigo
-                    <div ontouchstart="">
-                        <div class="button">
-                          <a href="#">Sortear Amigo</a>
-                        </div>
-                      </div>
+            <div ontouchstart="">
+                <div class="button">
+                    <a href="#">Sortear Amigo</a>
+                </div>
+            </div>
                 </button>
                 <div id="hiden-elements" class="button-hidden-container hidden">
                     <button id="auto-sorteio" class="button-draw hidden-button" onclick="resortearAmigo()" aria-label="Sortear amigo secreto">
