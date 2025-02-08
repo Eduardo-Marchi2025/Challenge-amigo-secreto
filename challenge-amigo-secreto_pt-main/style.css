@@ -98,7 +98,7 @@ body {
     font-size: 12px;
     font-weight: 500;
     color: var(--color-roxo);
-    margin: 10px 0;
+    margin: 1px 0;
     text-align: center;
 }
 
@@ -108,7 +108,7 @@ body {
     justify-content: center;
     width: 155%;
     max-width: 530px;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 .input-name {
