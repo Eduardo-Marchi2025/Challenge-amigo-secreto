@@ -1,11 +1,24 @@
 :root {
     --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-secondary: #FFF9EB; 
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-roxo: rgba(50,30,91,1.00);
+    --color-turquesa: #2980a2;
+    --color-verde:  #025e28;
+    --color-background-color-boton-sortear: #FFA12B;
+    --color-dark-orange: #FF8C00; 
+    --color-chocolate: #D2691E; 
+    --color-slategray: #708090;
+    --color-orange: hsl(16, 100%, 50%); 
+    --color-orange-pastel: #f79a4f;
+    --color-orange-pastel2: #f59c54;
+    --color-BlanchedAlmond:#FFEBCD;
+    --color-BurlyWood:#DEB887;
+
 }
 
 /* Estilos gerais */
@@ -17,7 +30,7 @@
 
 body {
     height: 100vh;
-    background-color: #2980a2;
+    background-color: var(--color-orange-pastel2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +64,7 @@ body {
 /* Seção de entrada */
 .input-section {
     flex: 60%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-BlanchedAlmond);
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
     display: flex;
@@ -63,7 +76,7 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 64px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
@@ -73,9 +86,18 @@ body {
 
 .section-title {
     font-family: "Inter", serif;
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 700;
-    color: #2980a2;
+    color: var(--color-roxo);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.section-p {
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-roxo);
     margin: 10px 0;
     text-align: center;
 }
@@ -84,17 +106,18 @@ body {
 .input-wrapper {
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 600px;
+    width: 200%;
+    max-width: 680px;
     margin-top: 20px;
 }
 
 .input-name {
-    width: 100%;
+    width: 180%;
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight:bold;
 }
 
 .button-container {
@@ -124,7 +147,7 @@ body {
     cursor: pointer;
     text-align: center;
     text-decoration:none;
-    background-color:#FFA12B;
+    background-color: var(--color-button);
     display:block;
     position:relative;
     padding:20px 30px;
@@ -191,13 +214,13 @@ button {
 
 .button-add {
     margin-left: -2px;
-    background-color: #025e28;
+    background-color: var(--color-slategray);
     color: #ffffff;
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #025e28;
+    background-color: var(--color-button-hover);
 }
 
 /* Listas */
@@ -238,11 +261,11 @@ ul {
 
 .button-restart {
     display: flex;
-    max-width: 150px;
+    max-width: 300px;
     max-height: 120px;
-    min-height: 30%;
-    min-width: 40px;
-    margin-left: 10px;
+    min-height: 50%;
+    min-width: 80px;
+    margin-left: 2px;
     cursor: pointer;
     vertical-align: middle;
 }
@@ -285,14 +308,20 @@ ul {
 }
 
 .rodape {
-    position: absolute;
+    position: fixed;
     padding: 24px;
     color: var(--color-white);
-    background-color: #2980a2;
+    background: var(--color-orange-pastel2);
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 400;
+    font-weight: bold;
     bottom: 0%;
     width: 100%;
+}
+
+.main {
+    position: relative;
+    padding-bottom: 100%;
 }
