@@ -135,12 +135,12 @@ body {
   }
   
   .button a{
-    width: 170%;
-    height: 50%;
+    width: 140%;
+    height: 20%;
     color:white;
     font-family:"inter", sans-serif;
     font-weight:bold;
-    font-size:20px;
+    font-size:16px;
     border: 2px solid #000;
     border-radius: 35px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -150,7 +150,7 @@ body {
     background-color: var(--color-button);
     display:block;
     position:relative;
-    padding:20px 30px;
+    padding:15px 40px;
     
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-shadow: 0px 1px 0px #000;
@@ -309,7 +309,7 @@ ul {
 
 .rodape {
     position: fixed;
-    padding: 15px;
+    padding: 13px;
     color: var(--color-white);
     background: var(--color-orange-pastel2);
     text-align: center;
