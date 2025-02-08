@@ -48,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 40px 20% 0 20%;
+    padding: 30px 20% 0 20%;
     width: 100%;
     gap: 20px;
 }
@@ -309,12 +309,12 @@ ul {
 
 .rodape {
     position: fixed;
-    padding: 13px;
+    padding: 8px;
     color: var(--color-white);
     background: var(--color-orange-pastel2);
     text-align: center;
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     font-weight: bold;
     bottom: 0%;
