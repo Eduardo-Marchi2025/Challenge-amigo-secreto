@@ -188,12 +188,12 @@ span {
 }
 
 button:hover span {
-    animation: smoky-out 3s forwards;
+    animation: smoky-out 4s forwards;
     /*animation: smoky 5s both;*/
 }
 
 button span.animate-back {
-    animation: smoky-in 3s forwards;
+    animation: smoky-in 1.2s forwards;
 }
 
 button:hover span.animate-back {
